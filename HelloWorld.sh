@@ -2,4 +2,5 @@
 ip="$(ifconfig)"
 
 echo  $ip
-$ip > output.txt
+
+ifconfig >>  output.txt
